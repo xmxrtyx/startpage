@@ -41,3 +41,29 @@ function createSwitch($name, $currentValue) {
 
     return switchContainer;
 }
+
+function createText($name, $currentValue) {
+    /**
+     * This is for those options in the config that is a
+     * string. An input container will be created that will
+     * hold the current value and will be allowed to be changed.
+     * 
+     * @desc Create input box for string kinda config options
+     * @param string $name - Name of the element to be created
+     * @param string $currentValue - Current value of the element
+     * @return HTMLDivElement - The element that needs to be appended
+     *                          to the parent
+     */
+    const textContainer = document.createElement("div");
+    const textEl = document.createElement("input");
+    const textName = document.createElement("h2");
+
+    textEl.setAttribute("type", "text");
+    textEl.value = $currentValue;
+    textName.innerText = $name;
+
+    textContainer.appendChild(textName);
+    textContainer.appendChild(textEl);
+
+    return textContainer;
+}
