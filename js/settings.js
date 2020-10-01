@@ -19,6 +19,7 @@ function showSettings() {
     closeBtn = document.getElementsByClassName(closeId)[0]
     modalEl.style.display = "block"
 
+    return;
     // Define the jsonEditor
     container = document.getElementById(jsonContainer)
     const options = {
