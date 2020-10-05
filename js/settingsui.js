@@ -42,7 +42,7 @@ function createSwitch($name, $currentValue) {
     return switchContainer;
 }
 
-function createText($name, $currentValue) {
+function createText($name, $currentValue, $dependsOn) {
     /**
      * This is for those options in the config that is a
      * string. An input container will be created that will
@@ -51,6 +51,8 @@ function createText($name, $currentValue) {
      * @desc Create input box for string kinda config options
      * @param string $name - Name of the element to be created
      * @param string $currentValue - Current value of the element
+     * @param HTMLElement $dependsOn - The element that the current one
+     *                                 depends on
      * @return HTMLDivElement - The element that needs to be appended
      *                          to the parent
      */
@@ -65,5 +67,33 @@ function createText($name, $currentValue) {
     textContainer.appendChild(textName);
     textContainer.appendChild(textEl);
 
+    // TODO: Check if thje $dependsOn is of valid type
+    if (!$dependsOn.checked) textEl.disabled = true;
+
+    // Add an onchange listener
+    $dependsOn.onchange = event => {
+        console.log(event);
+        toggleEditability(textEl, event.target.checked);
+    }
+
     return textContainer;
+}
+
+function toggleEditability($element, $isEnabled) {
+    /**
+     * @desc Toggle the editability of the element passed
+     * @param HTMLElement $element - The element that will be altered
+     */
+    $element.disabled = !$isEnabled;
+}
+
+function renderSettings() {
+    // Render the settings
+    const container = document.getElementById("jsoneditor");
+    const switchEl = createSwitch("Test", false);
+    const inputEl = switchEl.getElementsByTagName("input")[0];
+    const textEl = createText("Nana", "Just a random", inputEl);
+
+    container.appendChild(switchEl);
+    container.appendChild(textEl);
 }
