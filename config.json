@@ -9,42 +9,34 @@
         { "name": "Youtube", "url": "https://youtube.com" }
       ]
     },
-    { "name": "work",
+    { "name": "school meetings",
       "color": "#26A69A",
       "links": [
-        { "name": "Github", "url": "https://github.com" },
-        { "name": "Heroku", "url": "http://heroku.com/" },
-        { "name": "localhost", "url": "http://localhost:8000/" }
+      	{ "name": "Accountancy", "url": "https://meet.google.com/iau-wstj-egn-udf?pli=1&authuser=2" }, 
+        { "name": "BusinessStudies", "url": "https://meet.google.com/okr-hgfy-mwm?pli=1&authuser=2" },
+        { "name": "Economics", "url": "https://meet.google.com/gym-akuv-sck?pli=1&authuser=2" },
+        { "name": "Engish", "url": "https://meet.google.com/vuo-nhqp-dja?pli=1&authuser=2" },
+        { "name": "PhysicalEducation", "url": "https://meet.google.com/rsy-vyak-udf?pli=1&authuser=2" }
       ]
     },
     { "name": "social",
       "links": [
         { "name": "Reddit", "url": "https://reddit.com" },
-        { "name": "Unixporn Love", "url": "https://deepjyoti30.github.io/unixporn-love/" },
-        { "name": "r/unixporn", "url": "https://www.reddit.com/r/unixporn/" },
-        { "name": "r/mk", "url": "https://www.reddit.com/r/MechanicalKeyboards/" }
-      ]
-    },
-    {
-      "name": "Others",
-      "links": [
-        {"name": "Material Colors", "url": "http://materialuicolors.co/"},
-        {"name": "Gmail", "url": "http://gmail.com/"},
-        {"name": "neo4j Local", "url": "http://localhost:7474/"},
-        {"name": "rarbg", "url": "http://rarbg.to"}
+        { "name": "Instagram", "url": "https://www.instagram.com/" },
+        {"name": "Gmail", "url": "http://gmail.com/"}
       ]
     }
   ],
-  "searchEngine":"DuckDuckGo",
-  "user": "Deepjyoti",
+  "searchEngine":"Google",
+  "user": "Amartya",
   "disableMessage": false,
   "disableDate": false,
   "disableSearchBar": false,
   "disable24Hour": false,
-  "disableWeather": true,
-  "timeZone": "America/Los_Angeles",
+  "disableWeather": false,
+  "timeZone": "India/Hyderabad",
   "weatherConf": {
-    "location": "Pune India",
+    "location": "Hyderabad India",
     "unit": "cel"
   },
   "settingsIcon": false
