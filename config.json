@@ -31,7 +31,7 @@
   "user": "Amartya",
   "disableMessage": false,
   "disableDate": false,
-  "disableSearchBar": false,
+  "disableSearchBar": true,
   "disable24Hour": false,
   "disableWeather": false,
   "timeZone": "India/Hyderabad",
