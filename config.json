@@ -1,29 +1,30 @@
 {
   "squares": [
     { "name": "media",
-      "color": "red",
       "links": [
-        { "name": "Spotify", "url": "https://open.spotify.com/" },
-        { "name": "YoutubeMusic", "url": "https://music.youtube.com/" },
         { "name": "Netflix", "url": "https://netflix.com" },
-        { "name": "Youtube", "url": "https://youtube.com" }
-      ]
-    },
-    { "name": "school meetings",
-      "color": "#26A69A",
-      "links": [
-      	{ "name": "Accountancy", "url": "https://meet.google.com/iau-wstj-egn-udf?pli=1&authuser=2" }, 
-        { "name": "BusinessStudies", "url": "https://meet.google.com/okr-hgfy-mwm?pli=1&authuser=2" },
-        { "name": "Economics", "url": "https://meet.google.com/gym-akuv-sck?pli=1&authuser=2" },
-        { "name": "Engish", "url": "https://meet.google.com/vuo-nhqp-dja?pli=1&authuser=2" },
-        { "name": "PhysicalEducation", "url": "https://meet.google.com/rsy-vyak-udf?pli=1&authuser=2" }
+        { "name": "Spotify", "url": "https://open.spotify.com/" },
+        { "name": "twist.moe", "url": "https://twist.moe" },
+        { "name": "YoutubeMusic", "url": "https://music.youtube.com/" },
+        { "name": "Youtube", "url": "https://youtube.com" },
+        { "name": "Yugenanime", "url": "https://yugenani.me" }
       ]
     },
     { "name": "social",
       "links": [
         { "name": "Reddit", "url": "https://reddit.com" },
         { "name": "Instagram", "url": "https://www.instagram.com/" },
-        {"name": "Gmail", "url": "http://gmail.com/"}
+        {"name": "Gmail", "url": "http://gmail.com/"},
+        {"name": "Pinterest", "url": "https://www.pinterest.com/"}
+      ]
+    },
+    { "name": "meetings",
+      "links": [
+      	{ "name": "Accountancy", "url": "https://meet.google.com/iau-wstj-egn?pli=1&authuser=2" }, 
+        { "name": "BusinessStudies", "url": "https://meet.google.com/okr-hgfy-mwm?pli=1&authuser=2" },
+        { "name": "Economics", "url": "https://meet.google.com/gym-akuv-sck?pli=1&authuser=2" },
+        { "name": "Engish", "url": "https://meet.google.com/vuo-nhqp-dja?pli=1&authuser=2" },
+        { "name": "PhysicalEducation", "url": "https://meet.google.com/rsy-vyak-udf?pli=1&authuser=2" }
       ]
     }
   ],
