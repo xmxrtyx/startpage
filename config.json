@@ -10,14 +10,6 @@
         { "name": "Yugenanime", "url": "https://yugenani.me" }
       ]
     },
-    { "name": "social",
-      "links": [
-        { "name": "Reddit", "url": "https://reddit.com" },
-        { "name": "Instagram", "url": "https://www.instagram.com/" },
-        {"name": "Gmail", "url": "http://gmail.com/"},
-        {"name": "Pinterest", "url": "https://www.pinterest.com/"}
-      ]
-    },
     { "name": "meetings",
       "links": [
       	{ "name": "Accountancy", "url": "https://meet.google.com/iau-wstj-egn?pli=1&authuser=2" }, 
@@ -25,6 +17,16 @@
         { "name": "Economics", "url": "https://meet.google.com/gym-akuv-sck?pli=1&authuser=2" },
         { "name": "Engish", "url": "https://meet.google.com/vuo-nhqp-dja?pli=1&authuser=2" },
         { "name": "PhysicalEducation", "url": "https://meet.google.com/rsy-vyak-udf?pli=1&authuser=2" }
+      ]
+    },
+        { "name": "misc",
+      "links": [
+        { "name": "Reddit", "url": "https://reddit.com" },
+        { "name": "Instagram", "url": "https://www.instagram.com/" },
+        {"name": "Gmail", "url": "http://gmail.com/"},
+        {"name": "Pinterest", "url": "https://www.pinterest.com/"},
+        {"name": "Github", "url": "https://www.github.com/"},
+        {"name": "GCloud", "url": "https://console.cloud.google.com/compute/instances?project=browtf&instancessize=50"}
       ]
     }
   ],
